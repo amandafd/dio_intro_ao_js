@@ -1,0 +1,101 @@
+.caixa {
+    background: #A6808C;
+    color: #d6cfcb;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Zen Loop', cursive;
+    font-size: 80px;
+    font-weight: lighter;
+}
+
+h1 img {
+    color: #d6cfcb;
+    width: 75px;
+    vertical-align: middle;
+}
+
+header p {
+    font-size: 45px;
+    font-family: 'Amatic SC', cursive;
+}
+
+main {
+    background: #CCB7AE;
+    color: #565264;
+    font-family: 'Loved by the King', cursive;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 700px;
+}
+
+#list {
+    margin: 20px auto auto 15px;
+    width: 100%;
+}
+
+button {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    color: #D6CFCB;
+    background: #706677;
+    border: #D6CFCB;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #A6808C;
+    height: 30px;
+    width: 30%;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+}
+
+#task-input {
+    width: 40%;
+}
+  
+#tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+  
+.task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+:checked + label {
+    text-decoration: line-through;
+    color: #A6808C;
+}
+
+footer {
+    text-align: center;
+    color: #D6CFCB;
+    background: #706677;
+    padding: 40px;
+    height: 40px;
+    font-size: 30px;
+    font-family: 'Zen Loop', cursive;
+}
+
+.conteúdo-footer {
+    vertical-align: middle;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    margin: 10px auto 0px 100px;
+    color: #D6CFCB;
+}
